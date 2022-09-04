@@ -5,8 +5,9 @@
 # - 1 -> нет
 
 
-num_day = int(input('Введите порядковый номер дня недели '))
+num_day = int(input('Введите порядковый номер дня недели: '))
 if num_day == 6 or num_day == 7:
-    print (num_day ('выходной день'))
+    print('выходной день')
 else:
-    print (num_day ('рабочий день'))
+    print('рабочий день')
+
